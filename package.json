@@ -1,16 +1,16 @@
 {
   "name": "porfolio-website",
   "private": true,
-  "homepage": "https://isaiw.github.io/cristian-walle-portfolio",
+  "homepage": "https://isaiw.github.io/cristian-walle-portfolio/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",
