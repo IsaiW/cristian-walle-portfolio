@@ -17,7 +17,7 @@ const ButtonPrimary = ({
 }) => { 
     if(href) {
         return (
-            <a href={href} target={target} className={"btn btn-primary " + classes} rel="noopener noreferrer">
+            <a href={href} target={target} className={"btn btn-primary " + classes} rel="noopener noreferrer" download>
                 {label}
 
                 {icon ?
