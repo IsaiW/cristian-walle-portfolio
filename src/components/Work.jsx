@@ -8,37 +8,37 @@ import ProjectCard from "./ProjectCard";
 
 const works = [
     {
-      imgSrc: '/images/project-1.jpg',
+      imgSrc: './images/project-1.jpg',
       title: 'Full stack sells app with admin panel',
       tags: ['Database', 'Development'],
       projectLink: 'https://opticaalfaro.online/'
     },
     {
-      imgSrc: '/images/project-2.jpg',
+      imgSrc: './images/project-2.jpg',
       title: 'Inventory management system',
       tags: ['API', 'MVC', 'Database'],
       projectLink: 'https://isaiw.github.io/tindog-copycat/'
     },
     {
-      imgSrc: '/images/project-3.jpg',
+      imgSrc: './images/project-3.jpg',
       title: 'Single page application',
       tags: ['Development', 'SPA'],
       projectLink: ''
     },
     {
-      imgSrc: '/images/project-4.jpg',
+      imgSrc: './images/project-4.jpg',
       title: 'Landing page',
       tags: ['Web-design', 'Development'],
       projectLink: 'https://acllsolutions.com.mx/'
     },
     {
-      imgSrc: '/images/project-5.jpg',
+      imgSrc: './images/project-5.jpg',
       title: 'Landing page',
       tags: ['Web-design', 'Development'],
       projectLink: 'https://gemaconsultores.mx/inicio/'
     },
     {
-      imgSrc: '/images/project-6.jpg',
+      imgSrc: './images/project-6.jpg',
       title: 'Landing page',
       tags: ['Web-design', 'Development'],
       projectLink: 'https://isaiw.github.io/web-page-simple/'
